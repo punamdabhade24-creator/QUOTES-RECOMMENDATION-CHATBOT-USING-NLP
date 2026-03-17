@@ -1,0 +1,6 @@
+@echo off
+echo Starting Rasa Action Server...
+start /B rasa run actions --port 5055
+
+echo Starting Rasa Server...
+rasa run --enable-api --cors "*" --port 10000

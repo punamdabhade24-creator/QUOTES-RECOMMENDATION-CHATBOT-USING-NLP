@@ -1,0 +1,9 @@
+# This file contains the different endpoints your bot can use.
+
+# Action endpoint - MUST match the port in start_actions.sh
+action_endpoint:
+  url: "http://localhost:5055/webhook"  # Port 5055, NOT 10000
+
+# Tracker store
+tracker_store:
+    type: inmemory
